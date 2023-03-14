@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(204, 204, 204);
+    color: #000;
+   
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+fieldset{
+    padding: 0px;
+    margin-bottom: 0px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 1px 2px 4px rgb(0, 0, 0);
+    text-align: center;
+}
+
+input{
+    font-weight: 400;
+    font-size: 13pt;
+}
+input#botao-enviar{
+   width: 100px;
+   border: 0px;
+   color: white;
+   font-size: large;
+   padding: 10px 20px;
+   background-color: rgba(2, 174, 2, 0.83);
+}
+input:hover{
+    background-color: rgba(78, 78, 78, 0.2);
+}
+
+form#cadastro{
+    width: 500px;
+    margin: auto;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    
+}
