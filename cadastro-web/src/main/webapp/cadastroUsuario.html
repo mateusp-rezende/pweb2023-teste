@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Cadastrar</title>
-<link rel="stylesheet" href="cadastroUsuario.css">
-</head>
+ <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	
+    <title>Cadastro de usuario </title>
+  </head>
 <body>
-	<form id="cadastro" action="cadastrarUsuario" method="post">
-    <fieldset id="dados">
-      <p>  <label  for="nome">  </label> 
-        <input type="text" name="nome" id="nome" size="40" maxlength="30" placeholder="Nome completo"> </p>
-        <p><label for="email">  </label> 
-         <input type="email" name="email" id="email" size="40" maxlength="30" placeholder=" E-mail"> </p>
-        <p><label for="senha">  </label> 
-        <input type="password" name="senha" id="senha" size="40" maxlength="30" placeholder="Senha"></p>
-       <p> <label for="repitasenha"> </label> 
-        <input type="password" name="repitasenha" id="repitasenha" size="40" maxlength="30" placeholder="Repita a senha"></p>
-      <input id= "botao-enviar"type="submit" value="Cadastrar-se">
-    </fieldset>
+	<div class="container-fluid">
+  ...<form id="cadastro" action="cadastrarUsuario" method="post">
+   		<div class="mb-3">
+   			<p>  <label  class="form-label" for="nome">  </label> 
+         	  <input type="text" name="nome" id="nome" size="40" maxlength="30" placeholder="Nome completo"> </p>
+        	<p><label class="form-label" for="email">  </label> 
+         	<input type="email" name="email" size="40" maxlength="30" placeholder=" E-mail"> </p>
+        	<p><label class="form-label" for="senha">  </label> 
+        	<input type="password" name="senha" id="senha" size="40" maxlength="30" placeholder="Senha"></p>
+       		<p> <label class="form-label" for="repitasenha"> </label> 
+       		 <input type="password" name="repitasenha" id="repitasenha" size="40" maxlength="30" placeholder="Repita a senha"></p>
+      		<input id= "botao-enviar"type="submit" value="Cadastrar-se">
+   
+     		 <a class="btn btn-primary" href="./index.html" role="button"> Login </a>
+   		</div>
+   		
+      
+   
+    
     </form>
+</div>
+	
 	
     
 	
